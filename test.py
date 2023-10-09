@@ -19,9 +19,13 @@ def GuessRandomNumber(number, minimum, maximum):
     else:
         return False
     
-
+def PrintCountToTen():
+    for i in range(11):
+        print(i)
 
 
 say_hello_world()
 
-print(GuessRandomNumber(2, 1, 4))
+print(GuessRandomNumber(2, 1, 5))
+
+PrintCountToTen()
