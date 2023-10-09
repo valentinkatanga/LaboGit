@@ -19,9 +19,9 @@ def say_hello_world():
 #    else:
 #        return False
     
-#def PrintCountToTen():
-#    for i in range(11):
-#        print(i)
+def PrintCountToTen():
+    for i in range(11):
+        print(i)
 
 
 say_hello_world()
